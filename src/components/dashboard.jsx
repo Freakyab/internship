@@ -76,7 +76,7 @@ const Dashboard = () => {
                     {data.map(item => {
                         return (
                             <>
-                                <div className="bg-white rounded-md p-3 m-5 w-[250px] h-[100px]">
+                                <div className="bg-white rounded-md p-3 m-5 w-[250px] h-[100px]" key={item.id}>
                                     <span className="text-gray-500 font-semibold">
                                         {item.text}
                                     </span>
@@ -140,7 +140,7 @@ const Dashboard = () => {
                         </div>
                     </div>
                     <div className="h-[450px] w-1/2 m-5 bg-gray-900 rounded-md overflow-hidden">
-                        <img src="https://www.xtrafondos.com/wallpapers/espacio-abstracto-3088.jpg" alt="image" className="h-[450px] w-[540px] rounded-md opacity-80 absolute" />
+                        <img src="https://www.xtrafondos.com/wallpapers/espacio-abstracto-3088.jpg" alt="abstract" className="h-[450px] w-[540px] rounded-md opacity-60 absolute" />
                         <div className='pr-20 pt-10 flex flex-col text-white'>
                             <span className='z-10 flex justify-end gap-10 text-2xl '>
                                 <IoIosArrowBack />
