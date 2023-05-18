@@ -61,7 +61,7 @@ const Dashboard = () => {
                             <AiOutlineSearch className="text-xl" />
                         </label>
                         <input type="text"
-                            className="bg-[#F2F2F2] rounded-md pl-10 w-[250px] h-[40px] text-gray-500"
+                            className="bg-[#F2F2F2] rounded-2xl pl-10 w-[250px] h-[40px] text-gray-500"
                             placeholder="type here..."
                         />
                         <BsPersonCircle className='text-base translate-y-3' />
@@ -76,7 +76,7 @@ const Dashboard = () => {
                     {data.map(item => {
                         return (
                             <>
-                                <div className="bg-white rounded-md p-3 m-5 w-[250px] h-[100px]" key={item.id}>
+                                <div className="bg-white rounded-2xl p-3 m-5 w-[250px] h-[100px]" key={item.id}>
                                     <span className="text-gray-500 font-semibold">
                                         {item.text}
                                     </span>
@@ -126,7 +126,7 @@ const Dashboard = () => {
                     })}
                 </div>
                 <div className="flex">
-                    <div className="h-[450px] w-1/2 p-3 m-5 bg-white rounded-md">
+                    <div className="h-[450px] w-1/2 p-3 m-5 bg-white rounded-2xl">
                         <h3 className="text-xl p-5 font-semibold">
                             Sales Overview
                         </h3>
@@ -139,20 +139,20 @@ const Dashboard = () => {
                             <Graph />
                         </div>
                     </div>
-                    <div className="h-[450px] w-1/2 m-5 bg-gray-900 rounded-md overflow-hidden">
-                        <img src="https://www.xtrafondos.com/wallpapers/espacio-abstracto-3088.jpg" alt="abstract" className="h-[450px] w-[540px] rounded-md opacity-60 absolute" />
+                    <div className="h-[450px] w-1/2 m-5 bg-gray-900 rounded-2xl overflow-hidden">
+                        <img src="https://www.xtrafondos.com/wallpapers/espacio-abstracto-3088.jpg" alt="abstract" className="h-[450px] w-[540px] rounded-2xl opacity-60 absolute" />
                         <div className='pr-20 pt-10 flex flex-col text-white'>
                             <span className='z-10 flex justify-end gap-10 text-2xl '>
                                 <IoIosArrowBack />
                                 <IoIosArrowForward />
                             </span>
-                            <div className='w-10 h-10 bg-white text-black flex justify-center items-center rounded-md relative top-28 left-14'>
+                            <div className='w-10 h-10 bg-white text-black flex justify-center items-center rounded-2xl relative top-52 left-14'>
                                 <AiTwotoneBulb className='text-2xl' />
                             </div>
-                            <h3 className="text-xl left-10 p-5 font-semibold relative top-28">
+                            <h3 className="text-xl left-10 p-5 font-semibold relative top-52">
                                 Fastest way to create web pages
                             </h3>
-                            <p className="text-base left-10 p-5 pl-5 relative top-28">
+                            <p className="text-base left-10 p-5 pl-5 relative top-48">
                                 That's the skill. I'm not really specifically talented at anything except for the ability to learn.
                             </p>
                         </div>
